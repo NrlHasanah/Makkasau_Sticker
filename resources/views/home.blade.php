@@ -225,7 +225,7 @@
                         </li>
                         <li class="flex justify-between py-4">
                             <span class="font-bold">Minggu</span>
-                            <span>09.00 - 12.00</span>
+                            <span>09.00 - 17.00</span>
                         </li>
                     </ul>
                 </div>
@@ -238,12 +238,26 @@
                         <h3 class="text-[#0A3D62] font-bold text-xl">Lokasi Kami</h3>
                     </div>
                     <p class="text-md font-semibold text-[#0A3D62] mb-4 leading-relaxed">
-                        Jl. Andi Makkasau No.20, Pangkajene,<br>
-                        Kec. Maritengngae, Kabupaten<br>
-                        Sidenreng Rappang, Sulawesi Selatan<br>
-                        91611
+                        <a href="https://maps.app.goo.gl/6ksbndkAUREoQUpN7"
+                        target="_blank" class="text-[#0A3D62] hover:underline">
+                            Jl. Andi Makkasau No.20, Pangkajene,<br>
+                            Kec. Maritengngae, Kabupaten<br>
+                            Sidenreng Rappang, Sulawesi Selatan<br>
+                            91611
+                        </a>
                     </p>
-                    <img src="{{ asset('images/lokasi.png') }}" class="rounded-md w-full" alt="Peta Lokasi">
+                    <div className="mt-4 rounded-lg overflow-hidden">
+                        <iframe
+                            title="Lokasi Makkasau Sticker"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.081188527169!2d119.63138407411426!3d-6.880690993119845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbeffb53d99b7bb%3A0x8f1a713b67499b78!2sJl.%20Andi%20Makkasau%20No.20%2C%20Pangkajene%2C%20Maritengngae%2C%20Kabupaten%20Sidenreng%20Rappang%2C%20Sulawesi%20Selatan!5e0!3m2!1sen!2sid!4v1711520052746!5m2!1sen!"
+                            width="100%"
+                            height="250"
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            className="border-0 w-full h-[250px]"
+                        ></iframe>
+                    </div>
                 </div>
                 <div class="bg-[#f8f9fa] p-6 rounded-xl shadow-md w-[85%] max-w-[400px] mx-auto">
                     <div class="flex justify-center mb-10 relative">
